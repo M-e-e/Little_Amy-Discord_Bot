@@ -11,8 +11,7 @@
 # somehow represent her strawberry obsession
 # randomly starts meowing, sometimes holding mouse in her mouth
 ####IDEAS##############
-
-
+import os
 import re
 
 import requests
@@ -170,4 +169,4 @@ client.load_extension('cogs.testcog')
 client.load_extension('cogs.debugger')
 
 
-client.run("NzM0NTQyMTQ4NTg1NjUyMjM2.XxTQtw.exOljvI5KTN35CVG1FPWDAmW2y4")
+client.run(os.environ['TOKEN'])
